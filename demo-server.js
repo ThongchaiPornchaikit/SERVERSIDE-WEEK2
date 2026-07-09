@@ -1,7 +1,7 @@
 const http = require('node:http');
 
 const PORT = 3000;
-const HOSTNAME = '127.0.0.1';
+const HOSTNAME = 'localhost';
 
 const server = http.createServer((req, res) => {
   if (req.url === '/about'){
